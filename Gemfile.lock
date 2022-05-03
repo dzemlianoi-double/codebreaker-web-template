@@ -1,0 +1,88 @@
+GIT
+  remote: https://github.com/vladvaskiv/codebreaker.git
+  revision: b7d12199ce3363483ba8cb14a262e3bbbe65bb8f
+  specs:
+    codebreaker (0.1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    childprocess (4.1.0)
+    colorize (0.8.1)
+    diff-lcs (1.5.0)
+    docile (1.4.0)
+    fasterer (0.10.0)
+      colorize (~> 0.7)
+      ruby_parser (>= 3.19.1)
+    iniparse (1.5.0)
+    overcommit (0.59.0)
+      childprocess (>= 0.6.3, < 5)
+      iniparse (~> 1.4)
+      rexml (~> 3.2)
+    parallel (1.22.1)
+    parser (3.1.2.0)
+      ast (~> 2.4.1)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rainbow (3.1.1)
+    regexp_parser (2.3.1)
+    rexml (3.2.5)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    rubocop (1.28.2)
+      parallel (~> 1.10)
+      parser (>= 3.1.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.17.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.17.0)
+      parser (>= 3.1.1.0)
+    rubocop-rspec (2.10.0)
+      rubocop (~> 1.19)
+    ruby-progressbar (1.11.0)
+    ruby_parser (3.19.1)
+      sexp_processor (~> 4.16)
+    sexp_processor (4.16.1)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    unicode-display_width (2.1.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  codebreaker!
+  fasterer
+  overcommit
+  rack
+  rack-test
+  rspec
+  rubocop
+  rubocop-rspec
+  simplecov
+
+RUBY VERSION
+   ruby 2.7.5p203
+
+BUNDLED WITH
+   2.3.9
